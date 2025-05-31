@@ -1,0 +1,94 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+    padding: 15px 30px;
+}
+.logo{
+    width: 200px;
+    
+}
+.nav{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 50px;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+.info-btn{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+}
+.info-btn:hover{
+    background-color: red;
+    color: white;
+}
+
+.pseudo-mavzu{
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    color: brown;
+    background-color: beige;
+    border: 10px red;
+}
+
+.pseudo-mavzu:hover{
+       background-color: red;
+    color: white;
+}
+
+.mavzu{
+        display: flex;
+    justify-content: center;
+}
+
+.card-contanier{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card{
+    width: 350px;
+    height: 500px;
+    top: 378px;
+    left: 95px;
+    border-radius: 20px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+.card:hover{
+    background-color: blue;
+    color: white;
+}
+
+.card-rasm{
+    width: 350px;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-button{
+    background-color: grey;
+    padding: 8px;
+    border-radius: 20px;
+}
+.card-button:hover{
+    background-color: red;
+    border: 2px solid yellowgreen
+}
